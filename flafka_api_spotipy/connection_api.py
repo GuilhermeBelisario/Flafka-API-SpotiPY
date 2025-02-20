@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 import os
 import time
 
-load_dotenv()
+load_dotenv() 
 
 client_id = os.getenv("SPOTIPY_CLIENT_ID")
 client_secret = os.getenv("SPOTIPY_CLIENT_SECRET")
